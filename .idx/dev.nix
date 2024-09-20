@@ -7,6 +7,9 @@
   packages = [
     pkgs.nodejs_20
     pkgs.python3
+    pkgs.sudo
+    pkgs.sqlite-interactive.bin
+    pkgs.php83
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -32,7 +35,7 @@
         # Example: install JS dependencies from NPM
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
-        default.openFiles = [ "style.css" "main.js" "index.html" ];
+        #default.openFiles = [ ];
       };
       # Runs when the workspace is (re)started
       onStart = {

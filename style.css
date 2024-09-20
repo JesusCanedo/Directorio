@@ -6,3 +6,30 @@
     background-size: 1.5em 1.5em;
     padding-right: 2.5rem;
 }
+
+table {
+    width: 100%;
+    border-collapse:separate;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #6b7280;
+}
+
+tr:first-child{
+    background-color: rgb(29, 43, 66);
+}
+
+tr:nth-last-child(even) {
+    background-color: rgb(25, 34, 49);
+}
+
+tr:hover {
+    background-color: #273038;
+}
+
+.grid.grid-cols-3.gap-4 {
+    margin-bottom: 26px;
+  }
