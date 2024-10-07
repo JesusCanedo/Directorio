@@ -10,6 +10,7 @@
     pkgs.sudo
     pkgs.sqlite-interactive.bin
     pkgs.php83
+    pkgs.php83Packages.composer
   ];
   # Sets environment variables in the workspace
   env = {};
